@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "copyboard"
+version = "1.0.0"
+description = "Gerenciador de histórico do clipboard com atalho global, busca e imagens (porte Linux)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "CopyBoard" }]
+dependencies = [
+    "PySide6>=6.6",
+    "pynput>=1.7.6",
+]
+
+[project.scripts]
+copyboard = "copyboard.app:main"
+
+[tool.setuptools.packages.find]
+include = ["copyboard*"]

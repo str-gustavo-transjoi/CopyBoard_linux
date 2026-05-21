@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=CopyBoard
+GenericName=Gerenciador de Clipboard
+Comment=Histórico do clipboard com atalho global, busca e suporte a imagens
+Exec=copyboard
+Icon=edit-paste
+Terminal=false
+Categories=Utility;
+StartupNotify=false
+Keywords=clipboard;copy;paste;history;
